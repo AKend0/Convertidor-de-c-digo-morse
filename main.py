@@ -9,7 +9,7 @@ if(seleccion == 1):
           else:
               cipher += ' '
       return cipher
-  letras = input("ingrese la frase que quieres traducir : ").upper()
+  letras = input("ingrese la frase que quieres traducir 📚 : ").upper()
   message = letras
   result = encrypt(message)
   print(result)
@@ -36,4 +36,5 @@ elif(seleccion == 2):
   result = decrypt(message)
   print(result)
 else:
-  print("seleccion incorrecta")
+  print("seleccion incorrecta ❌")
+  
